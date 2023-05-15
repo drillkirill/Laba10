@@ -4,7 +4,7 @@ import java.io.*;
 public class f1 {
     public static void main(String[] args) throws IOException {
 
-        File file= new File("C:\\Users\\Никита\\Desktop\\text_1.txt");
+        File file= new File("C:\\Users\\User\\Desktop\\text_1.txt");
         BufferedReader fread = new BufferedReader(new FileReader(file));
         FileWriter fwrite = new FileWriter(file,true);
         char[] chars = fread.readLine().toCharArray();
